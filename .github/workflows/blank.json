@@ -1,16 +1,4 @@
-type Facet = {
-    id: number;
-    name: string;
-    icon: string;
-    color: string;
-    deprecated?: "true";
-    gradient_id: number;
-    title: string;
-    description: string;
-    abilities?: string[];
-  };
-  
-  export const heroFacets: Record<string, Facet[]> = {
+{
     npc_dota_hero_antimage: [
       {
         id: 0,
@@ -2970,5 +2958,5 @@ type Facet = {
           "Ringmaster is still new to the spotlight. This facet doesn't do anything... yet.",
       },
     ],
-  };
+  }
   
